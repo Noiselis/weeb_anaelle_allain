@@ -1,0 +1,111 @@
+/* Contact - Desktop */
+
+h1 {
+    /* Mise en page automatique */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: relative;
+    width: 1440px;
+    height: 1459px;
+
+    /* Blue Gray/900 */
+    background: #0f172a;
+
+    /* Button */
+
+    box-sizing: border-box;
+
+    /* Mise en page automatique */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    width: 156px;
+    height: 48px;
+
+    /* Purple/600 */
+    background: #9333ea;
+    /* Purple/600 */
+    border: 2px solid #9333ea;
+    border-radius: 8px;
+
+    /* À l'intérieur de l'auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* Frame 50 */
+
+    /* Mise en page automatique */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 495px;
+
+    margin: 0 auto;
+    width: 1000px;
+    height: 96px;
+
+    background: rgba(255, 255, 255, 0.05);
+    /* Shadow/Dark/XXL */
+    box-shadow:
+        0px 25px 50px -12px rgba(0, 0, 0, 0.25),
+        0px 0px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+
+    /* À l'intérieur de l'auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* weeb */
+
+    width: 77px;
+    height: 35px;
+
+    /* Heading/5 */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 110%;
+    /* ou 35px */
+
+    /* White */
+    color: #ffffff;
+
+    /* À l'intérieur de l'auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* Main Headline */
+
+    width: 1280px;
+    height: 163px;
+
+    /* Heading/1 M */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 110%;
+    /* ou 79px */
+    text-align: center;
+
+    /* White */
+    color: #ffffff;
+
+    /* À l'intérieur de l'auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
