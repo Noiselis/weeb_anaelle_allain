@@ -1,11 +1,14 @@
+import SocialMedia from "../assets/SocialMedia";
+
 export default function Footer() {
     const buttonStyle = "p-3";
-    const titleStyle = "p-2 tex-gray";
+    const titleStyle = "p-2 text-gray font-semibold";
+    const divStyle = "flex flex-col p-[2%] text-center";
     return (
-        <div className="bg-white text-black">
-            <div>
+        <div className="bg-white p-[4%]" id="footer">
+            <div className="flex justify-evenly">
                 <h3>weeb</h3>
-                <div>
+                <div className={divStyle}>
                     <h5 className={titleStyle}>PRODUITS</h5>
                     <button className={buttonStyle}>Prix</button>
                     <button className={buttonStyle}>
@@ -14,7 +17,7 @@ export default function Footer() {
                     <button className={buttonStyle}>Parcourir le site</button>
                     <button className={buttonStyle}>Accessibilité</button>
                 </div>
-                <div>
+                <div className={divStyle}>
                     <h5 className={titleStyle}>SOLUTIONS</h5>
                     <button className={buttonStyle}>Brainstorming</button>
                     <button className={buttonStyle}>
@@ -25,13 +28,13 @@ export default function Footer() {
                     </button>
                     <button className={buttonStyle}>Recherche</button>
                 </div>
-                <div>
+                <div className={divStyle}>
                     <h5 className={titleStyle}>RESSOURCES</h5>
                     <button className={buttonStyle}>Centre d'aide</button>
                     <button className={buttonStyle}>Blog</button>
                     <button className={buttonStyle}>Tutoriels</button>
                 </div>
-                <div>
+                <div className={divStyle}>
                     <h5 className={titleStyle}>ENTREPRISE</h5>
                     <button className={buttonStyle}>À propos</button>
                     <button className={buttonStyle}>Presse</button>
@@ -39,10 +42,12 @@ export default function Footer() {
                     <button className={buttonStyle}>Carrière</button>
                 </div>
             </div>
-            <hr />
-            <div>
-                <p></p>
-                <div></div>
+            <hr className="border-grey" />
+            <div className="flex justify-between pt-[5%]">
+                <p>@ 2025 Weeb, Inc. All rights reserved.</p>
+                <div>
+                    <SocialMedia />
+                </div>
             </div>
         </div>
     );

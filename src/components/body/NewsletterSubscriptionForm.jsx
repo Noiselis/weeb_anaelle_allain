@@ -2,13 +2,13 @@
 
 export default function NewsletterSubscriptionForm() {
     return (
-        <form className="text-center flex flex-col">
-            <label>Votre prénom</label>
+        <form className="text-center">
+            <label className="p-2">Votre prénom</label>
             <input
                 type="text"
                 className="border-secondary border-2 rounded-lg"
             ></input>
-            <label>Votre adresse mail</label>
+            <label className="p-2">Votre adresse mail</label>
             <input
                 type="email"
                 className="border-secondary border-2 rounded-lg"

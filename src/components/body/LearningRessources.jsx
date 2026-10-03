@@ -9,7 +9,7 @@ export default function LearningRessources() {
             <div className="m-2 p-2">
                 <h4>DES RESSOURCES POUR TOUS LES NIVEAUX</h4>
                 <h2>
-                    <span className="text-secondary">Aprenez</span> et{" "}
+                    <span className="text-secondary">Apprenez</span> et{" "}
                     <span className="text-secondary">progressez</span>
                 </h2>
                 <p>

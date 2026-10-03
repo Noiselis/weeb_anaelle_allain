@@ -1,9 +1,9 @@
-import LearningRessources from "./LearningRessources";
-import News from "./News";
-import Footer from "../Footer";
-import Partners from "./Partners";
-import Explore from "./Explore";
-import NavBar from "../NavBar";
+import LearningRessources from "./body/LearningRessources";
+import News from "./body/News";
+import Footer from "./Footer";
+import Partners from "./body/Partners";
+import Explore from "./body/Explore";
+import NavBar from "./NavBar";
 import { useState } from "react";
 
 export default function Home() {

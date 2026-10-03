@@ -13,7 +13,7 @@ export default function Squares() {
                 width="369.588"
                 height="366.196"
                 stroke="#581C87"
-                stroke-width="5"
+                strokeWidth="5"
             />
             <rect
                 y="3.51942"
@@ -21,7 +21,7 @@ export default function Squares() {
                 height="263.019"
                 transform="matrix(0.710315 0.703884 -0.710315 0.703884 210.474 18.442)"
                 stroke="#581C87"
-                stroke-width="5"
+                strokeWidth="5"
             />
             <rect
                 x="-0.911422"
@@ -30,7 +30,7 @@ export default function Squares() {
                 height="298.666"
                 transform="matrix(0.503415 0.864045 -0.867983 0.496593 266.077 2.4999)"
                 stroke="#581C87"
-                stroke-width="5"
+                strokeWidth="5"
             />
             <rect
                 x="-1.76372"
@@ -39,7 +39,7 @@ export default function Squares() {
                 height="334.265"
                 transform="matrix(0.261023 0.965332 -0.96651 0.256631 329.608 3.9735)"
                 stroke="#581C87"
-                stroke-width="5"
+                strokeWidth="5"
             />
             <rect
                 x="1.76372"
@@ -49,7 +49,7 @@ export default function Squares() {
                 transform="matrix(0.96651 0.256631 -0.261023 0.965332 125.426 64.9026)"
                 fill="#BE185D"
                 stroke="#BE185D"
-                stroke-width="5"
+                strokeWidth="5"
             />
         </svg>
     );

@@ -12,11 +12,30 @@
 }
 
 @layer components {
-    * {
+    /* * {
         color: white;
-    }
+    } */
+    /* h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    button:not(#footer) {
+        color: white;
+    } */
     form {
-        color: secondary;
+        color: var(--color-secondary);
+    }
+    h5 {
+        color: grey;
+    }
+    #footer:not(h5) {
+        color: black;
+    }
+    body {
+        color: white;
     }
 }
 
@@ -32,7 +51,7 @@ h2 {
 }
 h3 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     /* color: oklch(55.636% 0.25243 301.973 / 0.749); */
 }
 h4 {
