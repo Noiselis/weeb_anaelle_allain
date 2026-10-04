@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Desktop from "../../assets/Desktop";
-import Blog from "./Blog";
+import Blog from "../../pages/Blog";
 import NewsletterSubscriptionForm from "./NewsletterSubscriptionForm";
 
 export default function Explore() {

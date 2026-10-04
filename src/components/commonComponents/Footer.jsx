@@ -1,7 +1,7 @@
-import SocialMedia from "../assets/SocialMedia";
+import SocialMedia from "../../assets/SocialMedia";
 
 export default function Footer() {
-    const buttonStyle = "p-3";
+    const buttonStyle = "p-3 text-black";
     const titleStyle = "p-2 text-gray font-semibold";
     const divStyle = "flex flex-col p-[2%] text-center";
     return (

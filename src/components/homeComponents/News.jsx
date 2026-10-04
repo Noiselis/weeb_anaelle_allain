@@ -10,23 +10,22 @@ export default function News() {
             </div>
             <div className="m-2 p-2">
                 <h4>LE WEB, UN ÉCOSYSTÈME EN CONSTANTE ÉVOLUTION</h4>
-                <h2>
-                    Restez informé des dernières
-                    <span className="text-secondary"> tendances</span>
-                </h2>
+                <a href="/blog">
+                    <h2>
+                        Restez informé des dernières
+                        <span className="text-secondary"> tendances</span>
+                    </h2>
+                </a>
                 <p>
                     Chaque semaine, nous analysons les nouveautés du web :
                     frameworks émergents, bonnes pratiques SEO, accessibilité,
                     et bien plus encore. Ne manquez aucune actualité du digital
                     !
                 </p>
-                <div
-                    className="flex mt-8 hover:scale-110"
-                    onClick={handleReadArticles}
-                >
+                <a href="/blog" className="flex mt-8 hover:scale-110">
                     <h4 className="mr-4">Lire les articles récents</h4>
                     <Arrow />
-                </div>
+                </a>
             </div>
         </div>
     );

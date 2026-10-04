@@ -1,8 +1,8 @@
 import { useState } from "react";
-import HamburgerMenuIcon from "../assets/HamgurgerMenuIcon";
+import HamburgerMenuIcon from "../../assets/HamgurgerMenuIcon";
 import Menu from "./Menu";
 
-export default function NavBar(isDeviceMobile) {
+export default function NavBar(props) {
     const [openingMenu, setOpeningMenu] = useState(null);
     const [navBarStyleMobile, setNavBarStyleMobile] = useState(
         "bg-tertiary rounded-2xl shadow p-2 pl-4 pr-4",
@@ -22,13 +22,13 @@ export default function NavBar(isDeviceMobile) {
         }
     };
 
-    if (isDeviceMobile) {
+    if (props.isDeviceMobile) {
         return (
             <div className={navBarStyleMobile}>
                 <div className="flex justify-between">
-                    <button className="p-2">
+                    <a href="/" className="p-2">
                         <h3>weeb</h3>
-                    </button>
+                    </a>
                     <div
                         onClick={handleClickMenu}
                         className="bg-secondary rounded w-8 h-8 m-2 p-0.5 hover:bg-secondaryHover"
@@ -42,19 +42,28 @@ export default function NavBar(isDeviceMobile) {
     }
 
     return (
-        <div className="bg-tertiary rounded-2xl flex flex-row justify-between shadow p-2 pl-4 pr-4">
+        <div className="bg-tertiary text-white rounded-2xl flex flex-row justify-between shadow p-2 pl-4 pr-4">
             <div>
-                <button className="p-2">
+                <a href="/" className="p-2">
                     <h3>weeb</h3>
-                </button>
-                <button className="p-2">À propos</button>
-                <button className="p-2">Contact</button>
+                </a>
+                <a href="/blog" className="p-2">
+                    Blog
+                </a>
+                <a href="/contact" className="p-2">
+                    Contact
+                </a>
             </div>
             <div>
-                <button className="p-2 mr-4">Se connecter</button>
-                <button className="p-2 pl-4 pr-4 bg-secondary rounded">
+                <a href="/login" className="p-2 mr-4">
+                    Se connecter
+                </a>
+                <a
+                    href="/signin"
+                    className="p-2 pl-4 pr-4 bg-secondary rounded"
+                >
                     S'inscrire
-                </button>
+                </a>
             </div>
         </div>
     );

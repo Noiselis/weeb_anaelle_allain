@@ -3,7 +3,7 @@
     --color-primary: #0f172a;
     --color-secondary: #9333ea;
     --color-secondaryHover: oklch(55.636% 0.25243 301.973 / 0.749);
-    --color-tertiary: #9333ea10;
+    --color-tertiary: oklch(55.754% 0.2526 302.319 / 0.063);
 
     --breakpoint-sm: 480px;
     --breakpoint-md: 768px;
@@ -12,30 +12,11 @@
 }
 
 @layer components {
-    /* * {
-        color: white;
-    } */
-    /* h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    button:not(#footer) {
-        color: white;
-    } */
     form {
         color: var(--color-secondary);
     }
-    h5 {
-        color: grey;
-    }
-    #footer:not(h5) {
-        color: black;
-    }
-    body {
-        color: white;
+    button:hover {
+        cursor: pointer;
     }
 }
 
@@ -53,6 +34,7 @@ h3 {
     font-size: 20px;
     font-weight: 700;
     /* color: oklch(55.636% 0.25243 301.973 / 0.749); */
+    /* color: oklch(55.754% 0.2526 302.319 / 0.063); */
 }
 h4 {
     font-size: var(--text-lg);
@@ -61,4 +43,11 @@ h4 {
 
 img {
     font-size: 0.2rem;
+}
+
+form {
+    color: var(--color-secondary);
+}
+button:hover {
+    cursor: pointer;
 }
