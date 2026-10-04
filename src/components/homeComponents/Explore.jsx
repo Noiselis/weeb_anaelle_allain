@@ -17,10 +17,6 @@ export default function Explore() {
             : setNewsletterSubscription(true);
     };
 
-    if (openingBlog) {
-        return <Blog />;
-    }
-
     return (
         <div className="text-center">
             <h1>
@@ -38,12 +34,9 @@ export default function Explore() {
                 digital, notre blog vous offre du contenu de qualité pour rester
                 à la pointe.
             </p>
-            <button
-                className="bg-secondary rounded-md p-2 m-2"
-                onClick={handleDiscoverArticles}
-            >
+            <a href="/blog" className="bg-secondary rounded-md p-2 m-2">
                 Découvrir les articles
-            </button>
+            </a>
             <button
                 className="border-2 border-white rounded-md p-2 m-2"
                 onClick={handleNewsletterSubscription}

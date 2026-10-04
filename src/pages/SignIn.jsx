@@ -14,7 +14,7 @@ export default function SignIn() {
     };
 
     return (
-        <div className="bg-primary text-white flex flex-col content-center text-center p-8">
+        <div className="text-white flex flex-col content-center text-center p-8">
             <h1>Créer un compte</h1>
             <form /*  className="flex flex-col text-center content-center" */>
                 <div className="text-center flex flex-col items-center m-8">

@@ -22,7 +22,7 @@ export default function Contact() {
     };
 
     return (
-        <div className="bg-primary text-white text-center p-[5%] md:pl-[25%] md:pr-[25%]">
+        <div className=" text-white text-center p-[5%] md:pl-[25%] md:pr-[25%]">
             <h1>Votre avis compte !</h1>
             <p>
                 Votre retour est essentiel pour nous améliorer ! Partagez votre

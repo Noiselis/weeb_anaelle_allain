@@ -3,7 +3,7 @@ import HamburgerMenuIcon from "../../assets/HamgurgerMenuIcon";
 
 export default function Menu() {
     return (
-        <div className="rounded-2xl flex-col shadow p-2 pl-4 pr-4">
+        <div className="rounded-2xl flex-col shadow p-2 pl-4 pr-4 text-white">
             <div className="flex flex-col">
                 <a href="/blog" className="p-2 m-1">
                     Blog

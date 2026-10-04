@@ -33,8 +33,6 @@ h2 {
 h3 {
     font-size: 20px;
     font-weight: 700;
-    /* color: oklch(55.636% 0.25243 301.973 / 0.749); */
-    /* color: oklch(55.754% 0.2526 302.319 / 0.063); */
 }
 h4 {
     font-size: var(--text-lg);
